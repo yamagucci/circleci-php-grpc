@@ -1,4 +1,3 @@
-FROM cimg/php:8.1.11
+FROM cimg/php:8.0.24
 
-RUN sudo pecl install grpc && \
-    sudo docker-php-ext-enable grpc
+RUN sudo pecl install grpc
